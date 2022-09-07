@@ -67,9 +67,9 @@ Transport - it defines how service is called.  Is the service exposed over the i
 ### 7. SOAP and REST. ###
 **SOAP** defines specific way of building web-services. In SOAP we use XML as request/response exchange format. <br />
 SOAP defines a specific structure of request and response structure. <br />
-	>SOAP-ENV:Envelope<br />
-	>>SOAP-ENV:Header //contains meta information like authentication, authorisation, signatures...<br />
-	>>SOAP-ENV:Body //here we put the real request or response.<br />
+>SOAP-ENV:Envelope<br />
+>>SOAP-ENV:Header //contains meta information like authentication, authorisation, signatures...<br />
+>>SOAP-ENV:Body //here we put the real request or response.<br />
 For a web-service to be a SOAP web-service the application has to adhere to this structure of request and response format, where SOAP-envelope encloses the header and the body in request and response.<br /><br />
 SOAP can be transported over HTTP or MQ.<br />
 As Definition language, it uses WSDL(Web-Service Definition Language).<br /><br />
