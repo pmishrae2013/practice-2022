@@ -24,7 +24,7 @@ In javascript a variable doesn't have information about the variable. It does no
 The output of the web layer is HTML which is not re-usable. Logic layer and data layer combined can be re-usable after creating a jar file, but  there are a lot of problems creating a jar and trying to reuse it.<br />
 But if the application is able to provide out in a format that other applications can understand it, that's where web-service comes in.<br />
 According to W3C:
-> Software system designed to support `interoperable` `machine-to-machine interaction` `over a network`.
+> Software system designed to support `interoperable` `machine-to-machine interaction` `over a network`.<br />
 3 keys:
 >> **interoperable** means to be able to communicate and exchange data with another system or device.<br />
 >> **machine-to-machine interaction** means the applications should be able to communicate with any other application (not requiring any human interaction). Should not be platform dependent. Irrespective of the technologies or language used to build any application should be able to communicate with our application only then our application can be called a web-service.<br />
@@ -66,7 +66,7 @@ Transport - it defines how service is called.  Is the service exposed over the i
 
 ### 7. SOAP and REST. ###
 **SOAP** defines specific way of building web-services. In SOAP we use XML as request/response exchange format. <br />
-SOAP defines a specific structure of request and response structure. 
+SOAP defines a specific structure of request and response structure. <br />
 	>SOAP-ENV:Envelope<br />
 	>>SOAP-ENV:Header //contains meta information like authentication, authorisation, signatures...<br />
 	>>SOAP-ENV:Body //here we put the real request or response.<br />
