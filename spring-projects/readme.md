@@ -1,12 +1,12 @@
 # Questions for Spring and Java Interview preparation
 
 ### 1. Significance of 'var' keyword in java 10+. And all the cases. ###
-	1. Firstly,<br />
+	1. Firstly,
 
 	```
 	var person = new Person();
 	```
-	> It serves the same purpose as:<br />
+	> It serves the same purpose as:
 
 	```
 	Person person = new Person();
@@ -38,7 +38,8 @@ Let's say we have our web-service, so in that case other application to communic
 There are two popular formats for request and response:
 	1. XML(Extensible Markup Language)
 	It can be generated from any platform java, .net,...
-		eg. 	```
+	eg.
+		 	```
 			<getCourseDetailRequest>
 				<id>Course1</id> //which detail we want
 			</getCourseDetailRequest>
