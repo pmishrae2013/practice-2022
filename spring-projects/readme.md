@@ -1,11 +1,13 @@
 # Questions for Spring and Java Interview preparation
 
 ### 1. Significance of 'var' keyword in java 10+. And all the cases. ###
-	1. Firstly,
+	1. Firstly,<br />
+
 	```
 	var person = new Person();
 	```
-	> It serves the same purpose as:
+	> It serves the same purpose as:<br />
+
 	```
 	Person person = new Person();
 	```
