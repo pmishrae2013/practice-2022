@@ -84,6 +84,9 @@ REST has no restriction on Data exchange format. (XML or JSON)<br />
 Transport is always HTTP.<br />
 No standard service Definition.WADL / Swagger<br />
 
+
+### 8. Why Spring Boot for REST API?
+
  
 
 
